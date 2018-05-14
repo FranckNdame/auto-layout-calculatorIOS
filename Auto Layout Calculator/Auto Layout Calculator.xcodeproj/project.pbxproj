@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B80C1AF20A98F49006A0EE3 /* number.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B80C1AD20A98F49006A0EE3 /* number.mp3 */; };
+		5B80C1B220A98F9E006A0EE3 /* operator.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B80C1B120A98F9E006A0EE3 /* operator.mp3 */; };
+		5B80C1B420A9916F006A0EE3 /* numberSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B80C1B320A9916F006A0EE3 /* numberSound.mp3 */; };
+		5B80C1B720A99220006A0EE3 /* operatorSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B80C1B620A99220006A0EE3 /* operatorSound.mp3 */; };
 		5BD33E7920A8EDAA00891292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD33E7820A8EDAA00891292 /* AppDelegate.swift */; };
 		5BD33E7B20A8EDAA00891292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD33E7A20A8EDAA00891292 /* ViewController.swift */; };
 		5BD33E7E20A8EDAA00891292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD33E7C20A8EDAA00891292 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B80C1AD20A98F49006A0EE3 /* number.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = number.mp3; sourceTree = "<group>"; };
+		5B80C1B120A98F9E006A0EE3 /* operator.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = operator.mp3; sourceTree = "<group>"; };
+		5B80C1B320A9916F006A0EE3 /* numberSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = numberSound.mp3; sourceTree = "<group>"; };
+		5B80C1B620A99220006A0EE3 /* operatorSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = operatorSound.mp3; sourceTree = "<group>"; };
 		5BD33E7520A8EDAA00891292 /* Auto Layout Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD33E7820A8EDAA00891292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD33E7A20A8EDAA00891292 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +43,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B80C1AC20A98E44006A0EE3 /* Sound files */ = {
+			isa = PBXGroup;
+			children = (
+				5B80C1B120A98F9E006A0EE3 /* operator.mp3 */,
+				5B80C1AD20A98F49006A0EE3 /* number.mp3 */,
+				5B80C1B320A9916F006A0EE3 /* numberSound.mp3 */,
+				5B80C1B620A99220006A0EE3 /* operatorSound.mp3 */,
+			);
+			path = "Sound files";
+			sourceTree = "<group>";
+		};
 		5BD33E6C20A8EDAA00891292 = {
 			isa = PBXGroup;
 			children = (
+				5B80C1AC20A98E44006A0EE3 /* Sound files */,
 				5BD33E7720A8EDAA00891292 /* Auto Layout Calculator */,
 				5BD33E7620A8EDAA00891292 /* Products */,
 			);
@@ -123,8 +143,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BD33E8320A8EDAC00891292 /* LaunchScreen.storyboard in Resources */,
+				5B80C1AF20A98F49006A0EE3 /* number.mp3 in Resources */,
+				5B80C1B720A99220006A0EE3 /* operatorSound.mp3 in Resources */,
+				5B80C1B220A98F9E006A0EE3 /* operator.mp3 in Resources */,
 				5BD33E8020A8EDAC00891292 /* Assets.xcassets in Resources */,
 				5BD33E7E20A8EDAA00891292 /* Main.storyboard in Resources */,
+				5B80C1B420A9916F006A0EE3 /* numberSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
